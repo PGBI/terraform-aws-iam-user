@@ -20,5 +20,5 @@ output "access_key_secret" {
 
 output "access_key_id" {
   description = "The access key ID generated for the user."
-  value       = aws_iam_access_key.main.secret
+  value       = aws_iam_access_key.main.id
 }
